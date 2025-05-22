@@ -1,5 +1,3 @@
-let languages =`C is fun
-Python is cool
-Javascript is amazing
-`
-console.log(languages)
+console.log("C is fun");
+console.log("Python is cool");
+console.log("JavaScript is amazing");
