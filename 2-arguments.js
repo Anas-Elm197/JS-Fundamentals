@@ -1,14 +1,9 @@
-function task (a1, a2, a3) { 
-  
-    console.log(" No Argument found")
-    
-   if (task.length <=10){
-console.log("Argument found")
-   }
-   if (task.length<=10) {
-    console.log("Arguments found")
-   }
+const args = process.argv.slice(2); // Get command-line arguments, excluding node and script path
+
+if (args.length === 0) {
+  console.log("No argument");
+} else if (args.length === 1) {
+  console.log("Argument found");
+} else {
+  console.log("Arguments found");
 }
-task("", "argument", "this is an argument" )
-// task("argument")
-// task("this is an argument")
